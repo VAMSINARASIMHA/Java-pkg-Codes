@@ -15,3 +15,10 @@ class Student {
         s.display();
     }
 }
+
+/*
+If you don't write a constructor, Java internally creates something like this:
+Student() {
+        // empty constructor created by Java
+    }
+*/
