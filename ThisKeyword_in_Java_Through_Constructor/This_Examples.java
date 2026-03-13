@@ -48,6 +48,7 @@ class Test {
 
 /*
 //this returns the current object
+Example 1:
 class Test {
     Test show() {
         System.out.println("Hello");
@@ -60,7 +61,52 @@ class Test {
 }
 
 output:
-Hello
-Hello   
-Hello
+        Hello
+        Hello   
+        Hello
+
+
+
+1️) Test show() means:
+    The method returns an object of class Test.
+
+
+
+----->1️) Test show() means:
+            The method returns an object of class Test.
+
+            Normally you might see:
+            void show()
+            That means no value is returned.
+
+            But here:
+            Test show()
+            means this method returns a Test object.
+
+
+                                                (or)
+
+
+Example 2:
+public class Test {
+    Test show() {
+        System.out.println("Hello");
+        return this;
+    }
+    Test display() {
+        System.out.println("World");
+        return this;
+    }
+    public static void main(String[] args) {
+        Test t = new Test();
+         t.show().display();
+    }
+}                                               
+
+
+output:
+        Hello
+        World
+
 */
+
