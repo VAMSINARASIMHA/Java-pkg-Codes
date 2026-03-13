@@ -4,7 +4,7 @@ class encap1 {
     private int age;
     private String name;
 
-    public int getAge() {
+    public int getAge() {  //here we can use not only getAge() but also instead of getAge() or setAge() we can use any method name like abc() or xyz() methods in java.
         return age;
     }
 
