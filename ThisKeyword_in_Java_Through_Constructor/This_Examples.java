@@ -1,0 +1,66 @@
+package ThisKeyword_in_Java_Through_Constructor;
+
+//this to Call Current Class Method
+public class This_Examples {
+    void display() {
+        this.show();
+        System.out.println("Display method");
+    }
+    void show() {
+        System.out.println("Show method");
+    }
+    public static void main(String[] args) {
+        This_Examples s1 = new This_Examples();
+        s1.display();
+    }
+}
+
+
+
+
+
+/*
+//this() Calling Another Constructor
+class Test {
+
+    Test() {
+        this(10);
+        System.out.println("Default constructor");
+    }
+
+    Test(int x) {
+        System.out.println("Parameterized constructor");
+    }
+
+    public static void main(String[] args) {
+        new Test();
+    }
+}
+//Output:
+        Parameterized constructor
+        Default constructor    
+*/
+
+
+
+
+
+
+/*
+//this returns the current object
+class Test {
+    Test show() {
+        System.out.println("Hello");
+        return this;
+    }
+    public static void main(String[] args) {
+        Test t = new Test(); // constructor call
+        t.show().show().show(); // method call
+    }
+}
+
+output:
+Hello
+Hello   
+Hello
+*/
