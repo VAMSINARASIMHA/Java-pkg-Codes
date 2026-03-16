@@ -16,3 +16,5 @@ public class Super_Keyword4 {
         Suresh obj = new Suresh();
     }
 }
+// super() must be the first statement in the constructor
+// It is automatically called if not written.
