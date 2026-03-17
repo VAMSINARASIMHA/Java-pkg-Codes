@@ -8,7 +8,8 @@ class Calc
 }
 class AdvCalc extends Calc
 {
-	public int add(int n1, int n2)
+	@Override
+	public int add(int n1, int n2) // method overriding
 	{
 		return n1+n2+1;
 	}
