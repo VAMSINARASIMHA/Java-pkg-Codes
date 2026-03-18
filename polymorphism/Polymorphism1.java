@@ -43,7 +43,7 @@ public class Polymorphism1 {
     Animal b = new Cat();                
     b.sound();                  
     */
-//polymorphism is exist only in the inheritance.
+//polymorphism is exist only in the inheritance. and Method Overriding (Runtime polymorphism),Method Overloading (Compile-time polymorphism),Interfaces,Abstract Classes. 
     }
 }
 
