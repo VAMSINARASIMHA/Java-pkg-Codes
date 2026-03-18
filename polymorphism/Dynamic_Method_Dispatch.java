@@ -1,5 +1,8 @@
 package polymorphism;
 
+// Dynamic Method Dispatch: During runtime, the JVM determines which method to execute based on the actual object being referred to, not the reference type. This mechanism is called dynamic method dispatch.
+
+
 // Dynamic Method Dispatch (Mechanism Example)
 // It Focus: How Java decides which method to call
 class Parent {
