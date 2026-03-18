@@ -24,3 +24,5 @@ public class Dynamic_Method_Dispatch {
 //This decision-making process is called as Dynamic Method Dispatch in java.
 //Runtime Polymorphism = behavior you see
 //Dynamic Method Dispatch = logic JVM uses.
+
+//Runtime Polymorphism is also known as Dynamic Method Dispatch.
