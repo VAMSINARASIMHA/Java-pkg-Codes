@@ -43,7 +43,7 @@ public class Polymorphism1 {
     Animal b = new Cat();                
     b.sound();                  
     */
-
+//polymorphism is exist only in the inheritance.
     }
 }
 
