@@ -1,6 +1,10 @@
 package polymorphism;
 
 //runtime polymorphism (method overriding):
+/* 
+This happens when a child class provides its own implementation of a parent class method 
+The method that runs is decided at runtime based on the object type, not the reference type.
+*/
 class Animal {
 
     void sound() {
