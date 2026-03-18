@@ -1,0 +1,26 @@
+package polymorphism;
+
+// Dynamic Method Dispatch (Mechanism Example)
+// It Focus: How Java decides which method to call
+class Parent {
+    void show() {
+        System.out.println("Parent class");
+    }
+}
+
+class Child extends Parent {
+    void show() {
+        System.out.println("Child class");
+    }
+}
+
+public class Dynamic_Method_Dispatch {
+    public static void main(String[] args) {
+        Parent obj = new Child();
+        obj.show();   // Child class
+    }
+}
+
+//This decision-making process is called as Dynamic Method Dispatch in java.
+//Runtime Polymorphism = behavior you see
+//Dynamic Method Dispatch = logic JVM uses.
