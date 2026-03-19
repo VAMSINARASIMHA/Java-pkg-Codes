@@ -1,5 +1,5 @@
 package Inheritance;
-class vamsi{
+class vamsi{     //here """class vamsi extends Object""" by default as all the classes in java are child of Object class.
     int age;
 }
 class Narasmha extends vamsi{
