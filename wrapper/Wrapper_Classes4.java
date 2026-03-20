@@ -24,5 +24,28 @@ public class Wrapper_Classes4 {
         System.out.println(s); // 500
 
         //same code follows for "4. longValue()", "5. floatValue()", "6. doubleValue()", "7. charValue()", "8. booleanValue()" in java.
+
+
+
+
+
+        /*
+
+        the following methods are used to get the value associated with the corresponding wrapper object: 
+        intValue(), byteValue(), shortValue(), longValue(), floatValue(), doubleValue(), charValue(), booleanValue().
+
+        Example
+        public class Main {
+          public static void main(String[] args) {
+            Integer myInt = 5;
+            Double myDouble = 5.99;
+            Character myChar = 'A';
+            System.out.println(myInt.intValue());
+            System.out.println(myDouble.doubleValue());
+            System.out.println(myChar.charValue());
+          }
+        }
+
+        */
     }
 }
