@@ -33,6 +33,9 @@ public class Wrapper_Classes {
         int num = Integer.parseInt(str); // converting a String to an int using parseInt method.
         System.out.println(num*2); 
 
+        Integer num2 = Integer.valueOf(str); // converting a String to an Integer object using valueOf method.
+        System.out.println(num2*2);
+
 
     }
 }
