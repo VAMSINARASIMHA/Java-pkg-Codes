@@ -7,3 +7,6 @@ public class Wrapper_Classes3 {
         System.out.println("Primitive int: " + num);
     }
 }
+
+//Integer age = null; // allowed
+//int age2 = null;    // ERROR
