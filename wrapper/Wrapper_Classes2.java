@@ -29,7 +29,7 @@ public class Wrapper_Classes2 {
     System.out.println(myInt);
     System.out.println(myDouble);
     System.out.println(myChar);
-    System.out.println(myString);  //it will print the string representation of the integer value, which is "5". where,here '5' is called a string not an integer. 
+    System.out.println(myString);  //it will print the string representation of the integer value, which is "50". where,here '50' is called a string not an integer. 
     System.out.println(myString.length());
     System.out.println(myInt.getClass().getName()); 
     System.out.println(myDouble.getClass().getName());
