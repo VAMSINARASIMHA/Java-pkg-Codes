@@ -16,8 +16,8 @@ class B implements A{
 public class Interfaces_Of_Default_And_Static_WithBody{
     public static void main(String[] ar){
         A obj = new B();
-        obj.test();
-        A.display();
+        obj.test();   //default method accessing object
+        A.display(); //static method accessing object through interface name.
         obj.show();
     }
 }
