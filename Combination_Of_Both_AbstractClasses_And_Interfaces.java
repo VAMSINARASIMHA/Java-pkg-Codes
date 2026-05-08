@@ -71,7 +71,7 @@ class D extends B
         System.out.println("in show2");
     }
 }
-public class vvv {
+public class Combination_Of_Both_AbstractClasses_And_Interfaces {
     public static void main(String[] args) {
 
         C obj = new C();
@@ -84,7 +84,7 @@ public class vvv {
     }
 }
 
-//note:- Multiple and Hybrid inheritances will support in interfaces but not in abstract class.
+//note:- Multiple and Hybrid inheritances will support in both interfaces and abstract class in java.
 
 */
 
@@ -131,7 +131,7 @@ class Demo extends Test
     }
 }
 
-public class vvv 
+public class Combination_Of_Both_AbstractClasses_And_Interfaces 
 {
     public static void main(String[] args) 
     {
@@ -177,7 +177,7 @@ class C extends B implements A
         System.out.println("in show");
     }
 }
-public class vvv
+public class Combination_Of_Both_AbstractClasses_And_Interfaces
 {
     public static void main(String[] args) 
     {
