@@ -112,3 +112,22 @@ public class User_Input_Using_BufferedReader
 //     }
 // }
 
+
+
+
+
+
+// import java.io.StringReader;
+// public class vvv 
+// {
+//     public static void main(String[] args) throws Exception 
+//     {
+//         int c;
+//         StringReader re = new StringReader("Hello");
+//         while(( c = re.read()) != -1)
+//         {
+//             System.out.print((char) c);
+//         }
+//         re.close();
+//     }
+// }
