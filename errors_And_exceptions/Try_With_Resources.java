@@ -22,3 +22,42 @@ public class Try_With_Resources
         }
     }
 }
+
+
+
+
+
+
+
+
+
+// Custom Resource:-
+// You can create your own resource by implementing AutoCloseable.
+
+// class vamsi implements AutoCloseable
+// {
+//     void show()
+//     {
+//         System.out.println("In show");
+//     }
+//     @Override
+//     public void close()
+//     {
+//         System.out.println("Resource closed");
+//     }
+// }
+// public class Try_With_Resources
+// {
+//     public static void main(String[] ar)
+//     {
+//         try(vamsi obj = new vamsi())
+//         {
+//             obj.show();
+//         }
+//         catch (Exception e) 
+//         {
+//             System.out.println("Somethimg Went Wrong" +e);
+//             e.printStackTrace();
+//         }
+//     }
+// }
